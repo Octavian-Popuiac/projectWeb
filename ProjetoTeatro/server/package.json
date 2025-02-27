@@ -1,4 +1,21 @@
 {
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server do projeto Teatro.",
+  "main": "main.js",
+  "scripts": {
+    "build": "npx tsc && node ./build/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Octavian-Popuiac/projectWeb.git"
+  },
+  "author": "Octavian Popuiac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Octavian-Popuiac/projectWeb/issues"
+  },
+  "homepage": "https://github.com/Octavian-Popuiac/projectWeb#readme",
   "dependencies": {
     "express": "^4.21.2"
   },

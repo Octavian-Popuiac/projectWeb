@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Parte client do projeto web.",
+  "main": "main.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "live-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Octavian-Popuiac/projectWeb.git"
+  },
+  "author": "Octavian Popuiac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Octavian-Popuiac/projectWeb/issues"
+  },
+  "homepage": "https://github.com/Octavian-Popuiac/projectWeb#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "typescript": "^5.8.2"
+  }
+}
